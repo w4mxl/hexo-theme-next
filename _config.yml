@@ -88,9 +88,9 @@ footer:
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
   license: by-nc-sa
-  sidebar: false
+  sidebar: true
   post: false
-  language:
+  language: deed.zh
 
 
 # ---------------------------------------------------------------
@@ -182,6 +182,7 @@ site_state: true
 social:
   GitHub: https://github.com/w4mxl || github
   E-Mail: mailto:mxl1989@gmail.com || envelope
+  RSS: /atom.xml || rss
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -193,8 +194,8 @@ social:
 
 social_icons:
   enable: true
-  icons_only: false
-  transition: false
+  icons_only: true
+  transition: true
 
 # Blog rolls
 links_settings:
@@ -375,7 +376,7 @@ back2top:
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true
   # Available values: top | bottom
   position: top
   color: "#37c6c0"
