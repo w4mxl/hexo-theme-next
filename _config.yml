@@ -121,9 +121,9 @@ menu:
   #about: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
-  life: /categories/Life/ || fa fa-tree
-  tech: /categories/Tech/ || fa fa-code
   archives: /archives/ || fa fa-archive
+  life: /categories/Life/ || fa fa-angle-double-right
+  tech: /categories/Tech/ || fa fa-angle-double-right
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -384,7 +384,7 @@ reading_progress:
 
 # Bookmark Support
 bookmark:
-  enable: true
+  enable: false
   # Customize the color of the bookmark.
   color: "#222"
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
@@ -637,7 +637,7 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
-  enable: true
+  enable: false
   github_id: w4mxl # GitHub repo owner
   repo: w4mxl.github.io # Repository name to store issues
   client_id: 72e551d37e031a6846d4 # GitHub Application Client ID
